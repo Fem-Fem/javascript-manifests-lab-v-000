@@ -3,7 +3,6 @@
 <head>
   <title>Admin Layout</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  expect(File.read("app/views/layouts/admin.html.erb")).to include("javascript_include_tag 'main'")
   <%= javascript_include_tag "main" %>
 
   <%= csrf_meta_tags %>
